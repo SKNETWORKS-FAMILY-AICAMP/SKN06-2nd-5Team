@@ -32,6 +32,7 @@
 ## 기술스택
 
 ## 과정
+![image](https://github.com/user-attachments/assets/26bbb923-6af9-4adc-983e-8b7afe10def0)
 
 ### 데이터 전처리 요약
 
