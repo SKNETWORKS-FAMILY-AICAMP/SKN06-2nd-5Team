@@ -105,7 +105,6 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
 
 1. 교차 검증 및 모델 학습 수행
 
-
    - StratifiedKFold
    - Cross-Validation
    - pipeline
