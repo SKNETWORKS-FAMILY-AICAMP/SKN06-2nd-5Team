@@ -12,7 +12,7 @@
 |:----------:|:----------:|:----------:|:----------:|
 | 강채연 | 유경상 | 박미현 | 홍 준 |
 |[@codus090880](https://github.com/codus090880)|[@kyungsangYu](https://github.com/kyuyounglee)|[@ppim321](https://github.com/ppim321)|[@zl-zone](https://github.com/silenc3502)|
-| DB | DB | Streamlit | DB, Streamlit |  
+| DL | DL | ML | ML |  
 
 
 ## 프로젝트 개요
@@ -90,9 +90,19 @@
 ###  모델
 
 #### ML
-1. 로지스틱 회귀(Logistic Regression)
-2. 랜덤포레스트(Random Forest)
-3. 앙상블(Ensemble)
+1. 교차 검증 및 모델 학습
+   - StratifiedKFold
+   - Cross-Validation
+   - pipeline
+ 모델을 선택하기 전에 우선적으로 교차 검증 및 모델 학습을 진행하였다.
+ 
+3. 모델 선택
+   - 랜덤포레스트(RandomForest)
+   - XGBoost
+   - Ensemble (RandomForest + XGBoost)
+ 4. 모델 재선택 및 결정
+    - 로지스틱 회귀(Logistic Resgression)
+    - Ensemble (Logistic + Gradient + XGBoost)
 #### DL
 1. 
 2. 
