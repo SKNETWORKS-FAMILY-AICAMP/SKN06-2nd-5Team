@@ -105,7 +105,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 
 
-###  모델
+##  모델
 
 ### ML
 **개요**: 이진 분류(0: 이탈하지 않은 고객, 1: 이탈한 고객) 문제이므로, 사용할 모델을 다음과 같이 구상하였다.
@@ -162,7 +162,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 
   
-## 앙상블  
+### 앙상블  
 <img width="300px" src="image/ML_EMSBL_report.png" />    
 
 
@@ -237,11 +237,10 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
 
 ### Development
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
-![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)   
 
 ### Communication
-![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)  
 
 
 ### 결과 요약:
