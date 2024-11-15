@@ -158,7 +158,7 @@
 
   
 ## 앙상블  
-<img width="400px" src=="image/ML_EMSBL_report.png" />    
+<img width="400px" src="image/ML_EMSBL_report.png" />    
  
 
 
@@ -169,7 +169,7 @@
    - Ensemble (RandomForest + XGBoost)  
      
 - 앙상블 (RF + XGB)  
-<img width="400px" src=="image/ML_ESBL(RF_XGB)_report.png" />  
+<img width="400px" src="image/ML_ESBL(RF_XGB)_report.png" />  
 
 
 
@@ -178,7 +178,7 @@
     - Ensemble (Logistic + Gradient + XGBoost)  
 
 - 앙상블 (L + Gradient + XGB)  
-<img width="400px" src=="image/ML_ESBL(LG_G_XGB)_report.png" />  
+<img width="400px" src="image/ML_ESBL(LG_G_XGB)_report.png" />  
 
 
     
