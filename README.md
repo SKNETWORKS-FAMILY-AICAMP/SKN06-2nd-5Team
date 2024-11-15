@@ -8,9 +8,11 @@
 
   ### 팀원 👥  
 
-|강채연|유경상|박미현|홍준|
-|:-----:|:-----:|:-----:|:-----:|
-|@codus090880|@kyungsangYu|@ppim321|@l-zone|
+| <img width="60px" src="image/cy.jpg" /> | <img width="60px" src="image/ks.jpg" /> | <img width="60px" src="image/mh.jpg" /> |  <img width="60px" src="image/hj.jpg" /> |
+|:----------:|:----------:|:----------:|:----------:|
+| 강채연 | 유경상 | 박미현 | 홍 준 |
+|[@codus090880](https://github.com/codus090880)|[@kyungsangYu](https://github.com/kyuyounglee)|[@ppim321](https://github.com/ppim321)|[@l-zone](https://github.com/silenc3502)|
+| DB | DB | Streamlit | DB, Streamlit |
 
 ## 프로젝트 개요
 ### 소개
@@ -74,11 +76,11 @@
 | gender | object | 고객의 성별 -> "Male" 또는 "Female"로 표기 |
 | SeniorCitizen | int64 | 고령자 여부 -> 1이면 고령자, 0이면 고령자가 아닌 고객을 의미 |
 | Partner | object | 배우자 유무 ->  "Yes"면 배우자가 있고 "No"면 배우자가 없다 |
-| Dependents | object | 부양가족 여부 ->  "Yes"면 부양가족이 있고 "No"면 없다 |
+| Dependents | object | 부양가족 유무 ->  "Yes"면 부양가족이 있고 "No"면 없다 |
 | tenure | int64 | 고객이 해당 회사와 계약을 유지한 개월 수 |
 | PhoneService | object | 전화 서비스 가입 여부 ->  "Yes"면 전화 서비스를 이용하고 있고 "No"면 이용하지 않고 있다 |
 | MultipleLines | object | 다중 회선 여부 ->  "Yes"면 다중 회선을 사용 중이며, "No"면 단일 회선을 사용 중이다. "No phone service"일 경우 전화 서비스를 이용하지 않는 경우 |
-| InternetService | object | 인터넷 서비스 유형으 ->  "DSL", "Fiber optic", 또는 "No"로 표시되며, 각기 다른 인터넷 서비스 종류를 나타낸다 |
+| InternetService | object | 인터넷 서비스 유형 ->  "DSL", "Fiber optic", 또는 "No"로 표시되며, 각기 다른 인터넷 서비스 종류를 나타낸다 |
 | OnlineSecurity | object | 온라인 보안 서비스 가입 여부 ->  "Yes"면 가입하고 있고 "No"면 가입하지 않은 상태다. "No internet service"일 경우 인터넷 서비스를 이용하지 않는 경우이다 |
 | OnlineBackup | object | 온라인 백업 서비스 가입 여부 ->  "Yes" 또는 "No"로 나타내며, "No internet service"는 인터넷 서비스를 이용하지 않는 경우 |
 | DeviceProtection | object | 기기 보호 서비스 가입 여부 ->  "Yes" 또는 "No"로 나타내며, "No internet service"는 인터넷 서비스를 이용하지 않는 경우 |
