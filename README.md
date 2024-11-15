@@ -131,7 +131,7 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
 
 데이터 불균형 발견: 0과 1의 전체적인 정확도 재현율 수치가 많이 다름. → 개선을 위해 SMOTE 사용  
 
-<img width="400px" src="image/ML_crossval_ROC.png" /> <img width="400px" src="image/ML_crossval_report.png" />   
+<img width="300px" src="image/ML_crossval_ROC.png" /> <img width="300px" src="image/ML_crossval_report.png" />   
 
 
 
@@ -139,14 +139,14 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
 ### SMOTE  성능 확인
 클래스 1(이탈 고객)에 대한 recall 값이 약간 개선되것을 확인: SMOTE의 사용이 유의미해 보인다고 판단하였다.
 
-<img width="400px" src="image/ML_SMOTE_report.png" /> <img width="400px" src="image/ML_SMOTE_ROC.png" />  
+<img width="300px" src="image/ML_SMOTE_report.png" /> <img width="300px" src="image/ML_SMOTE_ROC.png" />  
 
 
 ## 모델 비교  
 
 ### RF 랜덤포레스트  
 
-<img width="400px" src="image/ML_RF_report.png" />  
+<img width="300px" src="image/ML_RF_report.png" />  
 
 
 
@@ -154,7 +154,7 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
   
 ### XGB
 
-<img width="400px" src="image/ML_XGB_report.png" />  
+<img width="300px" src="image/ML_XGB_report.png" />  
 
 
 
@@ -162,7 +162,7 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
 
   
 ## 앙상블  
-<img width="400px" src="image/ML_EMSBL_report.png" />    
+<img width="300px" src="image/ML_EMSBL_report.png" />    
 
 
 
@@ -170,7 +170,7 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
 ### Hyper Parameter RF 하이퍼파라미터 최적화 RandomForest  
 결론 : 하이퍼 파라미터 수정을 했지만, 전반적으로 성능이 개선되지 않은 것을 확인할 수 있다.  
 
-<img width="400px" src="image/ML_HyperPRM_RF_report.png" /> <img width="400px" src="image/ML_HyperPRM_RF_ROC.png" />  
+<img width="300px" src="image/ML_HyperPRM_RF_report.png" /> <img width="300px" src="image/ML_HyperPRM_RF_ROC.png" />  
 
 
 ## 특성 중요도 분석
@@ -178,7 +178,7 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
 ### Low Importance feature drop  RandomForest 중요도 낮은 특성 제거 파생 변수 생성
 결론 - 개선없음 앙상블 기법을 시도...?  
 
-<img width="400px" src="image/ML_LowIFdel_RF_report.png" />  
+<img width="300px" src="image/ML_LowIFdel_RF_report.png" />  
 
 
 
@@ -191,13 +191,13 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
      
 ### 앙상블 랜덤포레스트 더하기 엑쥐비 (RF + XGB)
      
-<img width="400px" src="image/ML_ESBL(RF_XGB)_report.png" />  
+<img width="300px" src="image/ML_ESBL(RF_XGB)_report.png" />  
 
 
 
 
 ### Log Regression 로지스틱희귀
-<img width="400px" src="image/ML_LogR_report.png" />  
+<img width="300px" src="image/ML_LogR_report.png" />  
 
 
 
@@ -208,18 +208,18 @@ TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대�
     - Ensemble (Logistic + Gradient + XGBoost)  
 
 ### 앙상블 (L + Gradient + XGB)  
-<img width="400px" src="image/ML_ESBL(LG_G_XGB)_report.png" />  
+<img width="300px" src="image/ML_ESBL(LG_G_XGB)_report.png" />  
 
 
 
   
 ### Final
-<img width="400px" src="image/ML_fianl2.png" />  
+<img width="300px" src="image/ML_fianl2.png" />  
 
 
 
   
-<img width="400px" src="image/ML_final1.png" />    
+<img width="300px" src="image/ML_final1.png" />    
 
     
 #### DL
