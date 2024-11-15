@@ -94,11 +94,12 @@
    - StratifiedKFold
    - Cross-Validation
    - pipeline
+   - 결과
    
   ![image](https://github.com/user-attachments/assets/a93629be-d744-4e5b-8492-de76912991e9)
 
 
- 모델을 선택하기 전에 우선적으로 교차 검증 및 모델 학습을 진행하였다.
+ 
  
 2. 모델 선택
    - 랜덤포레스트(RandomForest)
