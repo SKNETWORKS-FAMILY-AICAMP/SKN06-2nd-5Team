@@ -94,8 +94,8 @@
 
 ### 데이터 전처리
 #### 1. 결측치 처리
-for 구문을 통해 TotalCharges에서 11개의 공백 또는 NaN 값이 있는 것을 확인.   
-TotalCharges의 데이터 분포를 확인 후 결측치를 중앙값으로 대체.
+for 구문을 통해 TotalCharges 컬럼에서 11개의 공백 또는 NaN 값이 있는 것을 확인.   
+TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으로 대체.
 
 #### 2. 인코딩  
  범주형, 수치형 변수를 Label Encoding과 One-Hot Encoding 하여 전처리를 진행
