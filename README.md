@@ -94,6 +94,7 @@
    - StratifiedKFold
    - Cross-Validation
    - pipeline
+   
   ![image](https://github.com/user-attachments/assets/a93629be-d744-4e5b-8492-de76912991e9)
 
 
