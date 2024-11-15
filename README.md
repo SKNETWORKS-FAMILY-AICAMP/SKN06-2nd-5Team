@@ -66,7 +66,34 @@
 | 20  | Churn               | 7043 | non-null  |   object |
 
 
-### 데이터 전처리 요약
+### 데이터 컬럼 정보 확인\n",
+- 데이터 분석을 위해 컬럼의 정보 확인
+| cutomerID | object | 고객 식별자(ID)로, 각 고객을 고유하게 구분할 수 있는 코드 |
+| :---: | :---: | :---: |
+| gender | object | 고객의 성별로, "Male" 또는 "Female"로 표기 |
+| SeniorCitizen | int64 | 고령자 여부로, 1이면 고령자, 0이면 고령자가 아닌 고객을 의미 |
+| Partner | object | 배우자 유무로, "Yes"면 배우자가 있고 "No"면 배우자가 없다 |
+| Dependents | object | 부양가족 여부로, "Yes"면 부양가족이 있고 "No"면 없다 |
+| tenure | int64 | 고객이 해당 회사와 계약을 유지한 개월 수 |
+| PhoneService | object | 전화 서비스 가입 여부로, "Yes"면 전화 서비스를 이용하고 있고 "No"면 이용하지 않고 있다 |
+| MultipleLines | object | 다중 회선 여부로, "Yes"면 다중 회선을 사용 중이며, "No"면 단일 회선을 사용 중이다. "No phone service"일 경우 전화 서비스를 이용하지 않는 경우 |
+| InternetService | object | 인터넷 서비스 유형으로, "DSL", "Fiber optic", 또는 "No"로 표시되며, 각기 다른 인터넷 서비스 종류를 나타낸다 |
+| OnlineSecurity | object | 온라인 보안 서비스 가입 여부로, "Yes"면 가입하고 있고 "No"면 가입하지 않은 상태다. "No internet service"일 경우 인터넷 서비스를 이용하지 않는 경우이다 |
+| OnlineBackup | object | 온라인 백업 서비스 가입 여부로, "Yes" 또는 "No"로 나타내며, "No internet service"는 인터넷 서비스를 이용하지 않는 경우 |
+| DeviceProtection | object | 기기 보호 서비스 가입 여부로, "Yes" 또는 "No"로 나타내며, "No internet service"는 인터넷 서비스를 이용하지 않는 경우 |
+| TechSupport | object | 기술 지원 서비스 가입 여부로, "Yes" 또는 "No"로 나타내며, "No internet service"는 인터넷 서비스를 이용하지 않는 경우 |
+| StreamingTV | object | TV 스트리밍 서비스 가입 여부로, "Yes" 또는 "No"로 나타내며, "No internet service"는 인터넷 서비스를 이용하지 않는 경우 |
+| StreamingMovies | object | 영화 스트리밍 서비스 가입 여부로, "Yes" 또는 "No"로 나타내며, "No internet service"는 인터넷 서비스를 이용하지 않는 경우 |
+| Contract | object | 계약 유형으로, "Month-to-month" (월별 계약), "One year" (1년 계약), "Two year" (2년 계약) 중 하나 |
+| PaperlessBilling | object | 종이 없는 청구서 여부로, "Yes"면 종이 청구서 없이 온라인 청구서를 사용하고 있으며, "No"는 종이 청구서를 사용하는 경우 |
+| PaymentMethod | object | 요금 납부 방식으로, "Electronic check" (전자 수표), "Mailed check" (우편 수표), "Bank transfer (automatic)" (자동 은행 이체), "Credit card (automatic)" (자동 신용카드 결제) 중 하나 |
+| MonthlyCharges | float64 | 고객의 월간 요금으로, 매달 청구되는 금액을 나타낸다 |
+| TotalCharges | object | 고객이 전체 기간 동안 청구된 총 금액입니다. 월 요금과 유지 기간을 기반으로 산출 |
+| Churn | object | 고객 이탈 여부로, "Yes"면 이탈한 고객을 의미하고 "No"면 현재 고객 상태를 유지 중임을 나타낸다 |
+
+- 고객의 통신사 가입 년수  
+- 서비스 이용 종류  
+- 청구 요금과 지불 방법  
 
 #### 1. 결측치 처리
 
