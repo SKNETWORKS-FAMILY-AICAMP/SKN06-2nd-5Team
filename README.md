@@ -7,7 +7,7 @@
   ### 팀명 : Churn Busters
 
   ### 팀원 👥  
-  |||||
+  |![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/cy.jpg|![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/ks.jpg|![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/mh.jpg|![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/hj.jpg|
   |강채연|유경상|박미현|홍준|
   |:--:|:--:|:--:|:--:|
   |@codus090880|@kyungsangYu|@ppim321|@l-zone|
@@ -70,7 +70,7 @@
 - 데이터 분석을 위해 컬럼의 정보 확인
   
 | cutomerID | object | 고객 식별자(ID)  ->   각 고객을 고유하게 구분할 수 있는 코드 |
-| :---: | :---: | :---: |
+| :---: | :---: | :--- |
 | gender | object | 고객의 성별 -> "Male" 또는 "Female"로 표기 |
 | SeniorCitizen | int64 | 고령자 여부 -> 1이면 고령자, 0이면 고령자가 아닌 고객을 의미 |
 | Partner | object | 배우자 유무 ->  "Yes"면 배우자가 있고 "No"면 배우자가 없다 |
