@@ -68,6 +68,7 @@
 
 ### 데이터 컬럼 정보 확인\n",
 - 데이터 분석을 위해 컬럼의 정보 확인
+  
 | cutomerID | object | 고객 식별자(ID)로, 각 고객을 고유하게 구분할 수 있는 코드 |
 | :---: | :---: | :---: |
 | gender | object | 고객의 성별로, "Male" 또는 "Female"로 표기 |
@@ -89,7 +90,7 @@
 | PaymentMethod | object | 요금 납부 방식으로, "Electronic check" (전자 수표), "Mailed check" (우편 수표), "Bank transfer (automatic)" (자동 은행 이체), "Credit card (automatic)" (자동 신용카드 결제) 중 하나 |
 | MonthlyCharges | float64 | 고객의 월간 요금으로, 매달 청구되는 금액을 나타낸다 |
 | TotalCharges | object | 고객이 전체 기간 동안 청구된 총 금액입니다. 월 요금과 유지 기간을 기반으로 산출 |
-| Churn | object | 고객 이탈 여부로, "Yes"면 이탈한 고객을 의미하고 "No"면 현재 고객 상태를 유지 중임을 나타낸다 |
+| Churn | object | 고객 이탈 여부로, "Yes"면 이탈한 고객을 의미하고 "No"면 현재 고객 상태를 유지 중임을 나타낸다 |   
 
 - 고객의 통신사 가입 년수  
 - 서비스 이용 종류  
