@@ -88,8 +88,8 @@
 
 전체적으로 이 행렬은 상관관계가 강하지 않음을 보여주며, 고객 이탈에 영향을 미칠 수 있는 주요 변수로는 **가입 기간(tenure)**이 가장 두드러집니다.  
 
-<img width="400px" src = "image/RAWdata_correlation.jpg" /> 
-
+<img width="400px" src="image/RAWdata_correlation.jpg" /> 
+<img width="400px" src="image/ML_RF_report.png" />  
 
 
 ### 데이터 전처리
