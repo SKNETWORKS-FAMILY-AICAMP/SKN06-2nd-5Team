@@ -86,7 +86,8 @@
 - MonthlyCharges와 Churn: 약한 양의 상관관계(0.19), 월 요금(MonthlyCharges)이 높을수록 이탈 가능성이 약간 증가하는 경향
 - tenure와 MonthlyCharges: 약한 양의 상관관계(0.25). 가입 기간이 길어질수록 월 요금이 약간 증가하는 경향
 
-전체적으로 이 행렬은 상관관계가 강하지 않음을 보여주며, 고객 이탈에 영향을 미칠 수 있는 주요 변수로는 **가입 기간(tenure)**이 가장 두드러집니다.  
+전체적으로 상관관계가 강하지 않음을 보여주며, 고객 이탈에 영향을 미칠 수 있는 주요 변수로는
+<br>가입 기간(tenure)이 가장 두드러집니다.  
 
 <img width="400px" src="image/RAWdata_correlation.jpg" /> 
 
