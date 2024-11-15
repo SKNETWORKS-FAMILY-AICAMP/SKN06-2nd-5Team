@@ -68,7 +68,7 @@
 | 16  | PaperlessBilling    | 7043 |non-null  |   object |
 | 17  | PaymentMethod       | 7043 |non-null  |   object |
 | 18  | MonthlyCharges      | 7043 | non-null  |   float64 |
-| 19  | TotalCharges        | 7043 | non-null  |   object |
+| 19  | TotalCharges        | 7043 | 11        |   object |
 | 20  | Churn               | 7043 | non-null  |   object |
 
 
