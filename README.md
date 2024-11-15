@@ -75,6 +75,21 @@
 ### 데이터 컬럼 정보 확인  
 - 데이터 분석을 위해 컬럼의 정보 확인
 - 학습에 참여할 변수나 수치형 데이터 확인
+- 
+
+
+#### 변수 간의 관계를 시각화  
+( positive : 빨간색, negative : 파란색, 색이 짙을수록 상관관계의 절대값이 큼)
+
+- SeniorCitizen와 Churn: 약한 양의 상관관계(0.15), SeniorCitizen(고령자)일수록 Churn(이탈) 가능성이 약간 증가하는 경향
+- tenure와 Churn: 약한 음의 상관관계(-0.35), 고객의 가입 기간(tenure)이 길수록 이탈 가능성이 낮아지는 경향(비교적 의미 있는 수준)
+- MonthlyCharges와 Churn: 약한 양의 상관관계(0.19), 월 요금(MonthlyCharges)이 높을수록 이탈 가능성이 약간 증가하는 경향
+- tenure와 MonthlyCharges: 약한 양의 상관관계(0.25). 가입 기간이 길어질수록 월 요금이 약간 증가하는 경향
+
+전체적으로 이 행렬은 상관관계가 강하지 않음을 보여주며, 고객 이탈에 영향을 미칠 수 있는 주요 변수로는 **가입 기간(tenure)**이 가장 두드러집니다.  
+
+<img width="400px" src = "image/RAWdata_correlation.jpg" /> 
+
 
 
 ### 데이터 전처리
