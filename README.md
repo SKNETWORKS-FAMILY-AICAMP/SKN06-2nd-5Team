@@ -102,9 +102,7 @@
 
 
 ## CrossValid   
-<img width="400px" src="image/ML_crossval_ROC.png" />
-
-<img width="400px" src="image/ML_crossval_report.png" />   
+<img width="400px" src="image/ML_crossval_ROC.png" /> <img width="400px" src="image/ML_crossval_report.png" />   
 
 
 
