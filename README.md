@@ -94,15 +94,22 @@
    - StratifiedKFold
    - Cross-Validation
    - pipeline
+  
+
  모델을 선택하기 전에 우선적으로 교차 검증 및 모델 학습을 진행하였다.
  
-3. 모델 선택
+2. 모델 선택
    - 랜덤포레스트(RandomForest)
    - XGBoost
    - Ensemble (RandomForest + XGBoost)
- 4. 모델 재선택 및 결정
+  
+
+
+ 3. 모델 재선택 및 결정
     - 로지스틱 회귀(Logistic Resgression)
     - Ensemble (Logistic + Gradient + XGBoost)
+   
+    
 #### DL
 1. 
 2. 
