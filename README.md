@@ -18,48 +18,53 @@
 - 고객의 다양한 서비스 이용 패턴을 분석하고 고객의 이탈 예측을 위한 분류예측모델을 구축
 
 ### 필요성
-####! 고객 유지율 향상: 이탈 위험이 높은 고객을 사전에 파악하여 적절한 대응 전략 수립
-####! 수익성 개선: 고객 이탈로 인한 매출 손실 최소화
-####! 맞춤형 서비스 제공: 고객 특성에 따른 개인화된 서비스 및 프로모션 설계
-####! 경영 의사결정 지원: 데이터 기반의 객관적인 고객 관리 전략 수립
+- 고객 유지율 향상: 이탈 위험이 높은 고객을 사전에 파악하여 적절한 대응 전략 수립
+- 수익성 개선: 고객 이탈로 인한 매출 손실 최소화
+- 맞춤형 서비스 제공: 고객 특성에 따른 개인화된 서비스 및 프로모션 설계
+- 경영 의사결정 지원: 데이터 기반의 객관적인 고객 관리 전략 수립
 
 ### 목표
-####!고객 이탈을 정확히 예측할 수 있는 머신러닝 딥러닝 모델 개발 (목표 정확도: 85% 이상)
-####! 이탈에 영향을 미치는 주요 요인 파악 및 인사이트 도출
-####! 고객 세그먼트별 이탈 위험도 분석 및 시각화
-####  ! 고객 유지를 위한 실행 가능한 전략 제안
+- 고객 이탈을 정확히 예측할 수 있는 머신러닝 딥러닝 모델 개발 (목표 정확도: 85% 이상)
+- 이탈에 영향을 미치는 주요 요인 파악 및 인사이트 도출
+- 고객 세그먼트별 이탈 위험도 분석 및 시각화
+- 고객 유지를 위한 실행 가능한 전략 제안
  이 프로젝트를 통해 팀원들은 실제 비즈니스 문제에 데이터 분석을 통해 간접적으로 실무 경험을 쌓고, 고객 행동 예측 모델 개발 역량을 키울 수 있을 것으로 기대합니다. 또한, 통신 산업의 고객 관리 전략에 대한 이해를 높이고 실무적인 문제 해결 능력을 향상시킬 수 있을 것입니다.
 
 ## 기술스택
 
 ## 과정
 #### 활용 데이터
-프로젝트에 사용할 데이터는 통신사의 고객 개인정보와 이용중인 서비스 형태를 포함
-|  #  |  Column  |Non-Null|  Count  |  Dtype  |
-|-----|----------|--------|--------------|-----|
-|  0  | customerID  |   7043 non-null  |   object |
-|  1  | gender         |      7043 non-null  |   object |
-|  2  | SeniorCitizen   |     7043 non-null  |   int64 | 
-|  3  | Partner       |       7043 non-null  |   object |
-|  4  | Dependents       |    7043 non-null  |  object |
-|  5  | tenure          |     7043 non-null  |  int64  |
-|  6  | PhoneService    |     7043 non-null  |   object |
-|  7  | MultipleLines    |    7043 non-null   object |
-|  8  | InternetService   |   7043 non-null  |   object |
-|  9  | OnlineSecurity      | 7043 non-null  |   object |
-| 10  | OnlineBackup        | 7043 non-null  |   object |
-| 11  | DeviceProtection    | 7043 non-null  |   object | 
-| 12  | TechSupport         | 7043 non-null  |   object |
-| 13  | StreamingTV         | 7043 non-null  |   object |
-| 14  | StreamingMovies     | 7043 non-null  |   object |
-| 15  | Contract            | 7043 non-null  |   object |
-| 16  | PaperlessBilling    | 7043 non-null  |   object |
-| 17  | PaymentMethod       | 7043 non-null  |   object |
-| 18  | MonthlyCharges      | 7043 non-null  |   float64 |
-| 19  | TotalCharges        | 7043 non-null  |   object |
-| 20  | Churn               | 7043 non-null  |   object |
-|-----|----------|--------|--------------|-----|
-dtypes: float64(1), int64(2), object(18)
+- 프로젝트에 사용할 데이터는 통신사의 고객 개인정보와 이용중인 서비스 형태를 포함.
+<br>출처 : Kaggle
+<br>dtypes: float64(1), int64(2), object(18)
+<br>RangeIndex: 7043 entries, 0 to 7042
+<br>Data columns : total 21 columns  
+
+
+| # | Column | Non-Null | Count | Dtype |
+|:---:|:---:|:---:|:---:|:---:|
+| 0 | customerID    | 7043 |non-null  |   object |
+| 1  | gender       | 7043 |non-null  |   object |
+| 2  | SeniorCitizen| 7043 |non-null  |   int64 | 
+| 3  | Partner      | 7043 |non-null  |   object |
+| 4  | Dependents   | 7043 |non-null  |  object |
+| 5  | tenure          |7043 |non-null  |  int64  |
+| 6  | PhoneService    | 7043 |non-null  |   object |
+| 7  | MultipleLines    | 7043 |non-null   object |
+| 8  | InternetService   | 7043 |non-null  |   object |
+| 9  | OnlineSecurity      | 7043 |non-null  |   object |
+| 10  | OnlineBackup        | 7043 |non-null  |   object |
+| 11  | DeviceProtection    | 7043 |non-null  |   object | 
+| 12  | TechSupport         | 7043 |non-null  |   object |
+| 13  | StreamingTV         | 7043 |non-null  |   object |
+| 14  | StreamingMovies     | 7043 |non-null  |   object |
+| 15  | Contract            | 7043 |non-null  |   object |
+| 16  | PaperlessBilling    | 7043 |non-null  |   object |
+| 17  | PaymentMethod       | 7043 |non-null  |   object |
+| 18  | MonthlyCharges      | 7043 | non-null  |   float64 |
+| 19  | TotalCharges        | 7043 | non-null  |   object |
+| 20  | Churn               | 7043 | non-null  |   object |
+
 
 ### 데이터 전처리 요약
 
