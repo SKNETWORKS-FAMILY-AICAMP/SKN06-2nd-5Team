@@ -34,8 +34,32 @@
 
 ## 과정
 #### 활용 데이터
-프로젝트에 사용할 데이터는 통신사의 고객 개인정보와
-![image](https://github.com/user-attachments/assets/26bbb923-6af9-4adc-983e-8b7afe10def0)
+프로젝트에 사용할 데이터는 통신사의 고객 개인정보와 이용중인 서비스 형태를 포함
+|  #  |  Column  |Non-Null|  Count  |  Dtype  |
+|-----|----------|--------|--------------|-----|
+|  0  | customerID  |   7043 non-null  |   object |
+|  1  | gender         |      7043 non-null  |   object |
+|  2  | SeniorCitizen   |     7043 non-null  |   int64 | 
+|  3  | Partner       |       7043 non-null  |   object |
+|  4  | Dependents       |    7043 non-null  |  object |
+|  5  | tenure          |     7043 non-null  |  int64  |
+|  6  | PhoneService    |     7043 non-null  |   object |
+|  7  | MultipleLines    |    7043 non-null   object |
+|  8  | InternetService   |   7043 non-null  |   object |
+|  9  | OnlineSecurity      | 7043 non-null  |   object |
+| 10  | OnlineBackup        | 7043 non-null  |   object |
+| 11  | DeviceProtection    | 7043 non-null  |   object | 
+| 12  | TechSupport         | 7043 non-null  |   object |
+| 13  | StreamingTV         | 7043 non-null  |   object |
+| 14  | StreamingMovies     | 7043 non-null  |   object |
+| 15  | Contract            | 7043 non-null  |   object |
+| 16  | PaperlessBilling    | 7043 non-null  |   object |
+| 17  | PaymentMethod       | 7043 non-null  |   object |
+| 18  | MonthlyCharges      | 7043 non-null  |   float64 |
+| 19  | TotalCharges        | 7043 non-null  |   object |
+| 20  | Churn               | 7043 non-null  |   object |
+|-----|----------|--------|--------------|-----|
+dtypes: float64(1), int64(2), object(18)
 
 ### 데이터 전처리 요약
 
