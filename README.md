@@ -12,9 +12,10 @@
 |:----------:|:----------:|:----------:|:----------:|
 | 강채연 | 유경상 | 박미현 | 홍 준 |
 |[@codus090880](https://github.com/codus090880)|[@kyungsangYu](https://github.com/kyuyounglee)|[@ppim321](https://github.com/ppim321)|[@zl-zone](https://github.com/silenc3502)|
-| DB | DB | Streamlit | DB, Streamlit |
+| DB | DB | Streamlit | DB, Streamlit |  
 
-## 프로젝트 개요  
+
+## 프로젝트 개요
 
 ### 소개
 - 통신사 고객 데이터를 활용하여 고객의 이탈(Churn)예측과 고객의 특성 요소들을 시각화
@@ -27,7 +28,7 @@
 - 경영 의사결정 지원 : 데이터 기반의 객관적인 고객 관리 전략 수립
 
 ### 목표
-- 고객 이탈을 정확히 예측할 수 있는 머신러닝 딥러닝 모델 개발 (목표 정확도: 85% 이상)
+- 고객 이탈을 정확히 예측할 수 있는 머신러닝 딥러닝 모델 개발 (목표 정확도: 80% 이상)
 - 이탈에 영향을 미치는 주요 요인 파악 및 인사이트 도출
 - 고객 세그먼트별 이탈 위험도 분석 및 시각화
 - 고객 유지를 위한 실행 가능한 전략 제안  
@@ -38,9 +39,9 @@
   
 ## 과정  
 
-#### 활용 데이터
-- 프로젝트에 사용할 데이터는 통신사의 고객 개인정보와 이용중인 서비스 형태를 포함.
-  
+### 활용 데이터
+- 프로젝트에 사용할 데이터는 통신사의 고객 정보와 이용중인 서비스 형태를 포함.
+
 <br>출처 : Kaggle
 <br>dtypes: float64(1), int64(2), object(18)
 <br>RangeIndex: 7043 entries, 0 to 7042
@@ -98,7 +99,7 @@
 | TotalCharges | object | 고객이 전체 기간(가입기간)동안 청구된 총 금액. 월 요금과 유지 기간을 기반으로 산출 |
 | Churn | object | 고객 이탈 여부 ->  "Yes" : 이탈한 고객, "No" : 현재 고객 상태를 유지 중 |   
 
-### 데이터 가
+### 데이터 전처리
 #### 1. 결측치 처리
 
 #### 2. 범주형 데이터 처리
@@ -108,13 +109,31 @@
 #### 4. 인코딩
 
 
-### - 모델
+###  모델
 
 #### ML
 1. 로지스틱 회귀(Logistic Regression)
 2. 랜덤포레스트(Random Forest)
-
+3. 
 #### DL
+1. 
+2. 
+3. 
+
+
+## 📚 Stacks 
+
+### Environment
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
+
+### Development
+![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+### Communication
+![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 
 
 ### 결과 요약:
