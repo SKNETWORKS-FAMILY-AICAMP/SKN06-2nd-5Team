@@ -91,12 +91,41 @@
 
 #### ML
 1. 교차 검증 및 모델 학습
+
+- CrossValid   
+| <img width="100px" src="ML_crossval_ROC.png" /> | <img width="100px" src="ML_crossval_report.png" /> |
+
+- SMOTE
+| <img width="250px" src="ML_SMOTE_report.png" /> | <img width="250px" src="ML_SMOTE_ROC.png" /> |
+
+
    - StratifiedKFold
    - Cross-Validation
    - pipeline
    - 결과
    
-  ![image](https://github.com/user-attachments/assets/a93629be-d744-4e5b-8492-de76912991e9)
+
+
+
+
+| <img width="250px" src="ML_HyperPRM_RF_ROC.png" /> |
+
+| <img width="250px" src="ML_HyperPRM_RF_report.png" /> |
+
+| <img width="250px" src="ML_LogR_report.png" /> |
+
+| <img width="250px" src="ML_LowIFdel_RF_report.png" /> |
+
+| <img width="250px" src="ML_RF_report.png" /> |
+
+
+| <img width="250px" src="ML_XGB_report.png" /> |
+
+
+
+| <img width="250px" src="ML_fianl2.png" /> |
+
+| <img width="250px" src="ML_final1.png" /> |
 
 
  
@@ -105,13 +134,18 @@
    - 랜덤포레스트(RandomForest)
    - XGBoost
    - Ensemble (RandomForest + XGBoost)
-  
+  | <img width="250px" src="ML_EMSBL_report.png" /> |
 
 
  3. 모델 재선택 및 결정
     - 로지스틱 회귀(Logistic Resgression)
     - Ensemble (Logistic + Gradient + XGBoost)
-   
+
+- 앙상블 (L + G + X)
+| <img width="250px" src="ML_ESBL(LG_G_XGB)_report.png" /> |
+
+- 앙상블 (RF + X)
+| <img width="250px" src="ML_ESBL(RF_XGB)_report.png" /> |   
     
 #### DL
 1. 
