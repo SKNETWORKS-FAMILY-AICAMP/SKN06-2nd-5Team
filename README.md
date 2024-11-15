@@ -7,7 +7,10 @@
   ### 팀명 : Churn Busters
 
   ### 팀원 👥  
-  |![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/cy.jpg|![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/ks.jpg|![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/mh.jpg|![텍스트]https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/hj.jpg|
+|![텍스트](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/cy.jpg)|
+![텍스트](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/hj.jpg)|
+![텍스트](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/ks.jpg)|
+![텍스트](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN06-2nd-5Team/blob/main/image/mh.jpg)|
   |강채연|유경상|박미현|홍준|
   |:--:|:--:|:--:|:--:|
   |@codus090880|@kyungsangYu|@ppim321|@l-zone|
