@@ -91,7 +91,7 @@
 
 ###  모델
 
-#### ML
+### ML
 1. 교차 검증 및 모델 학습 수행
 
 
@@ -101,55 +101,36 @@
    - 결과
 
 
-## CrossValid   
+### CrossValid  교차 검증 및 분석  
+#### 요약: 교차 검증
+
+데이터 불균형 발견: 0과 1의 전체적인 정확도 재현율 수치가 많이 다름. → 개선을 위해 SMOTE 사용  
+
 <img width="400px" src="image/ML_crossval_ROC.png" /> <img width="400px" src="image/ML_crossval_report.png" />   
 
 
 
 
-## SMOTE
+### SMOTE  성능 확인
+#### 데이터 불균형이 어느 정도 해결된 것을 확인
+
 <img width="400px" src="image/ML_SMOTE_report.png" /> <img width="400px" src="image/ML_SMOTE_ROC.png" />  
 
 
+## 모델 비교  
 
+### RF 랜덤포레스트  
 
-## Hyper Parameter RF
-<img width="400px" src="image/ML_HyperPRM_RF_report.png" /> <img width="400px" src="image/ML_HyperPRM_RF_ROC.png" />  
-
-
-
-
-## Log Regression
-<img width="400px" src="image/ML_LogR_report.png" />  
-
-
-
-  
-## Low Importance feature drop
-<img width="400px" src="image/ML_LowIFdel_RF_report.png" />  
-
-
-
-  
-## RF
 <img width="400px" src="image/ML_RF_report.png" />  
 
 
 
+
   
-## XGB
+### XGB
+
 <img width="400px" src="image/ML_XGB_report.png" />  
 
-
-
-  
-## Final
-<img width="400px" src="image/ML_fianl2.png" />  
-
-
-
-  
-<img width="400px" src="image/ML_final1.png" />    
 
 
 
@@ -157,27 +138,63 @@
   
 ## 앙상블  
 <img width="400px" src="image/ML_EMSBL_report.png" />    
- 
 
 
- 
+
+
+### Hyper Parameter RF 하이퍼파라미터 최적화 RandomForest  
+결론 : 하이퍼 파라미터 수정을 했지만, 전반적으로 성능이 개선되지 않은 것을 확인할 수 있다.  
+
+<img width="400px" src="image/ML_HyperPRM_RF_report.png" /> <img width="400px" src="image/ML_HyperPRM_RF_ROC.png" />  
+
+
+## 특성 중요도 분석
+
+### Low Importance feature drop  RandomForest 중요도 낮은 특성 제거 파생 변수 생성
+결론 - 개선없음 앙상블 기법을 시도...?  
+
+<img width="400px" src="image/ML_LowIFdel_RF_report.png" />  
+
+
+
+
+
 2. 모델 선택
    - 랜덤포레스트(RandomForest)
    - XGBoost
    - Ensemble (RandomForest + XGBoost)  
      
-- 앙상블 (RF + XGB)  
+### 앙상블 랜덤포레스트 더하기 엑쥐비 (RF + XGB)
+     
 <img width="400px" src="image/ML_ESBL(RF_XGB)_report.png" />  
 
 
+
+
+### Log Regression 로지스틱희귀
+<img width="400px" src="image/ML_LogR_report.png" />  
+
+
+
+ 
 
  3. 모델 재선택 및 결정
     - 로지스틱 회귀(Logistic Resgression)
     - Ensemble (Logistic + Gradient + XGBoost)  
 
-- 앙상블 (L + Gradient + XGB)  
+### 앙상블 (L + Gradient + XGB)  
 <img width="400px" src="image/ML_ESBL(LG_G_XGB)_report.png" />  
 
+
+
+  
+### Final
+<img width="400px" src="image/ML_fianl2.png" />  
+
+
+
+  
+<img width="400px" src="image/ML_final1.png" />    
 
     
 #### DL
