@@ -92,7 +92,7 @@
 #### ML
 1. 로지스틱 회귀(Logistic Regression)
 2. 랜덤포레스트(Random Forest)
-3. 
+3. 앙상블(Ensemble)
 #### DL
 1. 
 2. 
