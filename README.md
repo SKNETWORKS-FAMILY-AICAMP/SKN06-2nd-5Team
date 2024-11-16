@@ -178,23 +178,26 @@ Random Forest 모델을 데이터에 맞추어서 최적화 작업을 진행하�
 
 
 
-### Log Regression 로지스틱희귀
+### Logistic Regression(로지스틱희귀)
 <img width="300px" src="image/ML_LogR_report.png" />  
 
-클래스 1에 대해 성능이 제일 우수한 것을 확인인
- 
 
- ### 3. 모델 재선택 및 결정
-    - 로지스틱 회귀(Logistic Resgression)
-    - Ensemble (Logistic + Gradient + XGBoost)  
+#### 요약
+클래스 1의 정밀도에 대해 성능이 제일 우수한 것을 확인할 수 있었다. 따라서 랜덤 포레스트와 XGBoost는 소수 클래스 1에 대해 과적합이 발생하여 정밀도가 낮게 나왔다는 것을 증빙해 주었다.
 
-### 앙상블 (L + Gradient + XGB)  
+XGBoost는 클래스 1에 있어서 가장 높은 재현율을 보여주었으므로 로지스틱 회귀와 XGBoost를 앙상블 기법으로 클래스 1의 정밀도와 재현율을 높일 수 있을지 확인 해보았다.
+
+ ### 3. 모델 재선택 및 결정: Ensemble(Logistic + Gradient + XGB)
+    
 <img width="300px" src="image/ML_ESBL(LG_G_XGB)_report.png" />  
+
+#### 요약
+결국 로지스틱 회귀와 XGB(XGBoost)를 앙상블 기법으로 결합함으로써 클래스 1의 정밀도와 재현율을 둘 다 높일 수 있었다.
 
 
 
   
-### Final
+### 최종 모델 Ensemble(Logistic + Gradient + XGB)
 <img width="300px" src="image/ML_fianl2.png" />  
 
 
