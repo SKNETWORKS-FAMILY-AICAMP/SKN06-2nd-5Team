@@ -85,6 +85,7 @@ Target : Yes(1) : No(0) = 27 : 73
 
 ### 변수 간의 독립성 검정
 (Chi-Square Test)
+- Chi-Square Test 시행 후  p-value가 0.05 이상이면 독립(Y), 그렇지않으면(N)
 
 ![image](https://github.com/user-attachments/assets/6e9f2ff2-e7dc-4c50-b9a9-683304f77bef)
 
