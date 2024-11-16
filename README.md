@@ -125,14 +125,12 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
    - Cross-Validation
    - pipeline  
 
-
-### CrossValid  교차 검증 및 분석  
 #### 요약: 교차 검증
 
-데이터 불균형 발견: 0과 1의 전체적인 정확도 재현율 수치가 많이 다름. → 개선을 위해 SMOTE 사용  
+데이터 불균형 발견: 0과 1의 전체적인 정확도 재현율 수치가 많이 다름. 
+→ 모델을 비교하기 전에 오버샘플링 기법인 SMOTE 사용 시도.  
 
 <img width="300px" src="image/ML_crossval_ROC.png" /> <img width="300px" src="image/ML_crossval_report.png" />   
-
 
 
 
@@ -164,7 +162,8 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 ### 앙상블  
 <img width="300px" src="image/ML_EMSBL_report.png" />    
 
-
+#### 요약
+전반적인 성능이 Random Forest와 XGBoost가 비슷함. 
 
 
 ### Hyper Parameter RF 하이퍼파라미터 최적화 RandomForest  
