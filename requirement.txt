@@ -1,0 +1,12 @@
+gdown == 5.2.0
+plotly == 5.24.1
+miisingno == 0.5.2
+xgboost == 2.1.2
+streamlit == 1.39.0
+pandas == 2.2.3
+openpyxl == 3.1.5
+matplotlib == 3.9.2
+seaborn == 0.13.2
+webdriver_manager == 3.8.5
+numpy == 2.1.2
+pandas == 2.2.3
