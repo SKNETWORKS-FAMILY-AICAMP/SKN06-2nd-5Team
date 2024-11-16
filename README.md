@@ -142,40 +142,25 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 ### 2. 모델 비교  
 
-### RF 랜덤포레스트                                          XGB                               
+### RF 랜덤포레스트, XGB                               
                                 
 
 <img width="300px" src="image/ML_RF_report.png" />        <img width="300px" src="image/ML_XGB_report.png" />  
-
-
-
-
   
-
-
-
-
-
-
-
-  
-### 앙상블  
+### 앙상블 기법 시도  
 <img width="300px" src="image/ML_EMSBL_report.png" />    
 
 #### 요약
-전반적인 성능이 Random Forest와 XGBoost가 비슷함. 
+전반적인 성능이 Random Forest와 XGBoost가 비슷함. 앙상블 기법을 시도해 보았지만, 딱히 개선이 없음.
+그나마 Random Forest가 성능이 XGBoost보다 나은 것이 확인되어 Random Forest 모델로 성능 개선을 시도해 보기로 함.
 
 
-### Hyper Parameter RF 하이퍼파라미터 최적화 RandomForest  
-결론 : 하이퍼 파라미터 수정을 했지만, 전반적으로 성능이 개선되지 않은 것을 확인할 수 있다.  
+### 하이퍼파라미터 최적화된 RandomForest  
 
 <img width="300px" src="image/ML_HyperPRM_RF_report.png" /> <img width="300px" src="image/ML_HyperPRM_RF_ROC.png" />  
 
 
-## 특성 중요도 분석
-
-### Low Importance feature drop  RandomForest 중요도 낮은 특성 제거 파생 변수 생성
-결론 - 개선없음 앙상블 기법을 시도...?  
+### 중요도 낮은 특성 제거 파생 변수 생성 RandomForest 
 
 <img width="300px" src="image/ML_LowIFdel_RF_report.png" />  
 
