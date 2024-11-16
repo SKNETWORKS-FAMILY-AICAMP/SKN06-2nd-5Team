@@ -119,7 +119,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
    3. **Gradient Boosting Machines (GBM), XGBoost**
   - 장점: 강력한 앙상블 학습 모델로, 데이터가 복잡한 경우에도 좋은 성능을 보인다.
 
-#### 1. 교차 검증 및 모델 학습 수행
+### 1. 교차 검증 및 모델 학습 수행
 
    - StratifiedKFold
    - Cross-Validation
