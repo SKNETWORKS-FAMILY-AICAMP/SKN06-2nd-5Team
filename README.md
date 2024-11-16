@@ -142,12 +142,12 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 ### 2. 모델 비교  
 
-### RF 랜덤포레스트, XGB                               
+#### RF 랜덤포레스트, XGB                               
                                 
 
 <img width="300px" src="image/ML_RF_report.png" />        <img width="300px" src="image/ML_XGB_report.png" />  
   
-### 앙상블 기법 시도  
+#### 앙상블 기법 시도  
 <img width="300px" src="image/ML_EMSBL_report.png" />    
 
 #### 요약
@@ -164,16 +164,15 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 <img width="300px" src="image/ML_LowIFdel_RF_report.png" />  
 
-
-
-
-
+#### 요약
+Random Forest 모델을 데이터에 맞추어서 최적화 작업을 진행하였는데도 불구하고 전혀 개선된 모습을 볼 수가 없었다. 과적합 문제가 발생한 것인지 확인하기 위해 XGBoost도 하이퍼파라미터 최적화 작업을 수행 후에 앙상블 기법을 사용하였다.
 
      
 ### 앙상블 랜덤포레스트 더하기 엑쥐비 (RF + XGB)
      
 <img width="300px" src="image/ML_ESBL(RF_XGB)_report.png" />  
 
+#### 요약
 
 
 
