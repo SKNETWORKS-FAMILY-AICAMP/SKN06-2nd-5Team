@@ -108,7 +108,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 - 다중 범주 변수(두 개 이상의 값을 가지는 변수)에 대해 One-Hot Encoding을 적용
 
 
-[프로젝트 개요](#프로젝트-개요) | [프로젝트 과정](#프로젝트-과정) | [데어터전처리](#데이터-전처리) | [모델](#모델) | [ML](#ml) | [DL](#dl)  
+[프로젝트 개요](#프로젝트-개요) | [프로젝트 과정](#프로젝트-과정) | [데이이터전처리](#데이터-전처리) | [모델](#모델) | [ML](#ml) | [DL](#dl)  
 
 
 ##  모델
@@ -239,8 +239,10 @@ train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Li
 ![image](https://github.com/user-attachments/assets/818404e3-49f5-49b7-97f6-86be7a7bf4a1)
 
 2. BatchNormalize나 Dropout을 시도해봤지만 Layer가 적어서 오히려 성능이 떨어졌다.
-3. 
-4. 
+3. learning rate scheduler = CosineAnnealingWarmRestarts
+4. learning rate scheduler = CosineAnnealingWarmRestarts + L2정규화
+5. learning rate scheduler = stepLR
+6. learning rate scheduler = stepLR + SMOTE
 
 
 ### 결과 요약:
