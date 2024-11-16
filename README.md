@@ -110,7 +110,8 @@ Target : Yes(1) : No(0) = 27 : 73
 #### 1. 결측치 처리
 for 구문을 통해 TotalCharges 컬럼에서 11개의 공백 또는 NaN 값이 있는 것을 확인.
 
-![image](https://github.com/user-attachments/assets/5e87529c-e48c-43d3-b0d4-2dccea7844cd)
+![image](https://github.com/user-attachments/assets/aa19906e-340e-454c-8751-bb52f7c4e7fa)
+
 
 - 모든변수의 data type확인
   
