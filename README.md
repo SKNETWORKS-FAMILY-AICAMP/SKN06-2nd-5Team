@@ -235,6 +235,7 @@ XGBoost 모델의 자체 기능 부스팅은 약한 학습기(weak learner)들�
 ## DL
 1. Target이 (0,1)인 데이터로 이진분류를 사용하였고 따라서 손실함수로는 BCEloss를 optimizer로는 Adam을 사용하였다.
 train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Liinear를 사용할떄가 가장 성능이 좋았다.
+
 ![image](https://github.com/user-attachments/assets/71cec8e7-89df-4585-a2f9-4b44598759db)
 ![image](https://github.com/user-attachments/assets/818404e3-49f5-49b7-97f6-86be7a7bf4a1)
 
@@ -242,25 +243,33 @@ train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Li
 
 
 3. learning rate scheduler = CosineAnnealingWarmRestarts
+
 ![image](https://github.com/user-attachments/assets/ca6162e8-436c-4238-8fe2-9d6197b5323c)
 ![image](https://github.com/user-attachments/assets/6072e1d9-f25e-4ae5-a261-abff53630e00)
+
 train loss와 test loss의 차이가 크다.
 이것은 Overfitting이 된것임을 알 수 있고 이를 해소하기위해 L2 정규화를 시도하였다.
 
 4. learning rate scheduler = CosineAnnealingWarmRestarts + L2정규화
+
 ![image](https://github.com/user-attachments/assets/2ce38808-dc6b-448e-afdc-b6ee3576a557)
 ![image](https://github.com/user-attachments/assets/0f8fc690-97a1-4a2b-b10e-f45385a3187d)
+
 CosineAneelingWarmRestarts를 통해 학습률을 변화시키고 L2정규화를통해 가중치의 크기를 억제시켜 Overfitting을 줄일 수 있다.
 하지만 여전히 train loss와 test loss의 차이가 크다.
 
 6. learning rate scheduler = stepLR
+
 ![image](https://github.com/user-attachments/assets/47b5ffad-3918-4693-be18-a2eff01519c9)
 ![image](https://github.com/user-attachments/assets/9ab9451d-6411-491b-8954-4da154dd30f2)
+
 또다른 학습률 스케줄려인 stepLR을 적용해보았더니 비교적 Overfitting 문제가 해소된 것으로 보인다.
 
 7. learning rate scheduler = stepLR + SMOTE
+
 ![image](https://github.com/user-attachments/assets/28035839-8123-4684-b4a7-d7962f38c543)
 ![image](https://github.com/user-attachments/assets/80a62462-bea6-4ead-9fbd-550833304155)
+
 데이터 특성상 class1에 대한 recall값을 중요한 성능 지표로삼았다.
 recall값을 향상시키기 위해 Oversampling을 하기위해  SMOTE를 적용해보았다.
 recall값이 0.48에서 0.62정도로 향상되었고 recall값이 향상되면 precision이 낮아진다는 점을 고려하더라도
