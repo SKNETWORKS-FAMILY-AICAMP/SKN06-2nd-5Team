@@ -268,4 +268,4 @@ train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Li
 채연 - 쉽지 않다 .......
 <br>경상 -
 <br>미현 -
-준 -
+<br>준 -
