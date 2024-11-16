@@ -253,13 +253,18 @@ train loss와 test loss의 차이가 크다.
 CosineAneelingWarmRestarts를 통해 학습률을 변화시키고 L2정규화를통해 가중치의 크기를 억제시켜 Overfitting을 줄일 수 있다.
 하지만 여전히 train loss와 test loss의 차이가 크다.
 
-
 6. learning rate scheduler = stepLR
-
-
+![image](https://github.com/user-attachments/assets/47b5ffad-3918-4693-be18-a2eff01519c9)
+![image](https://github.com/user-attachments/assets/9ab9451d-6411-491b-8954-4da154dd30f2)
+또다른 학습률 스케줄려인 stepLR을 적용해보았더니 비교적 Overfitting 문제가 해소된 것으로 보인다.
 
 7. learning rate scheduler = stepLR + SMOTE
-
+![image](https://github.com/user-attachments/assets/28035839-8123-4684-b4a7-d7962f38c543)
+![image](https://github.com/user-attachments/assets/80a62462-bea6-4ead-9fbd-550833304155)
+데이터 특성상 class1에 대한 recall값을 중요한 성능 지표로삼았다.
+recall값을 향상시키기 위해 Oversampling을 하기위해  SMOTE를 적용해보았다.
+recall값이 0.48에서 0.62정도로 향상되었고 recall값이 향상되면 precision이 낮아진다는 점을 고려하더라도
+f1 score가 소폭 향상되어 의미있는 결과를 얻었다.
 
 ### 결과 요약:
 
