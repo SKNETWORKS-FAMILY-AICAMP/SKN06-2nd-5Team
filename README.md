@@ -217,7 +217,7 @@ XGBoost 모델의 자체 기능 부스팅은 약한 학습기(weak learner)들�
 
 
   
-### 최종 모델 Ensemble(Logistic + Gradient + XGB)
+### ML - 최종 모델 Ensemble(Logistic + Gradient + XGB)
 
 #### 모델1: 클래스 1(이탈 고객)의 정확도를 우선시 하는 경우
 <img width="300px" src="image/ML_fianl2.png" />  
