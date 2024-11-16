@@ -81,10 +81,13 @@ Target : Yes(1) : No(0) = 27 : 73
 - 데이터 분석을 위해 컬럼의 정보 확인
 - 학습에 참여할 변수나 수치형 데이터 확인
 
+
+
 ### 변수 간의 독립성 검정
 (Chi-Square Test)
 
-[210 rows x 6 columns]
+![image](https://github.com/user-attachments/assets/6e9f2ff2-e7dc-4c50-b9a9-683304f77bef)
+
 
 
 ### 변수 간의 관계를 시각화  
