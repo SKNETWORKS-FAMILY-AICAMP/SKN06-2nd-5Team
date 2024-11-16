@@ -168,22 +168,23 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 Random Forest 모델을 데이터에 맞추어서 최적화 작업을 진행하였는데도 불구하고 전혀 개선된 모습을 볼 수가 없었다. 과적합 문제가 발생한 것인지 확인하기 위해 XGBoost도 하이퍼파라미터 최적화 작업을 수행 후에 앙상블 기법을 사용하였다.
 
      
-### 앙상블 랜덤포레스트 더하기 엑쥐비 (RF + XGB)
+### 앙상블 기법 (RF + XGB)
      
 <img width="300px" src="image/ML_ESBL(RF_XGB)_report.png" />  
 
 #### 요약
+클래스 1의 정밀도는 제일 낮게 나왔지만, 재현율은 제일 잘 나온 것을 확인을 할 수 있었다. 
+클래스 1에 대해 패턴을 학습하려는 경향을 크게 가지면서 과적합이 발생한다고 판단하여 로지스틱 회귀 모델을 시도하였다. 
 
 
 
 ### Log Regression 로지스틱희귀
 <img width="300px" src="image/ML_LogR_report.png" />  
 
-
-
+클래스 1에 대해 성능이 제일 우수한 것을 확인인
  
 
- 3. 모델 재선택 및 결정
+ ### 3. 모델 재선택 및 결정
     - 로지스틱 회귀(Logistic Resgression)
     - Ensemble (Logistic + Gradient + XGBoost)  
 
