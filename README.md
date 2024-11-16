@@ -242,7 +242,8 @@ train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Li
 
 
 2. BatchNormalize, Dropout
-BatchNormalize나 Dropout을 시도해봤지만 Layer가 적어서 오히려 성능이 떨어졌다.
+BatchNormalize나 Dropout을 시도해봤지만 Layer가 적어서 유의미하게 좋아진건 없었다.
+
 BatchNormalize
 
 ![image](https://github.com/user-attachments/assets/833d1ba4-6b4d-42ce-9271-1d795a05ce20)
