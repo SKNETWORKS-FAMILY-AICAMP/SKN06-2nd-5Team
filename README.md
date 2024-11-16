@@ -118,11 +118,11 @@ for 구문을 통해 TotalCharges 컬럼에서 11개의 공백 또는 NaN 값이
 ![image](https://github.com/user-attachments/assets/a97f11e2-9e44-4321-8e44-d3f26c436a36)
 
  -> 'TotalCharges'컬럼의 dtype='object'
- -> 'TotalCharges'컬럼을 float타입으로 변환 후 결측치를 대체
+ -> 'TotalCharges'컬럼을 float타입으로 변환 후 결측치를 대체해야함.
 
  ![image](https://github.com/user-attachments/assets/99ca02f0-13d7-4594-a01f-a95f10fdd924)
 
- -> TotalCharges 컬럼의 분포형태가 한쪽으로 치우쳐져있어 중앙값으로 대체.
+ -> TotalCharges 컬럼의 분포형태가 한쪽으로 치우쳐져있어 결측치를 중앙값으로 대체.
 
 #### 2. 인코딩  
  범주형, 수치형 변수를 Label Encoding과 One-Hot Encoding 하여 전처리를 진행
