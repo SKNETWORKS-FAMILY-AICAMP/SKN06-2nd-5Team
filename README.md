@@ -243,9 +243,17 @@ train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Li
 
 2. BatchNormalize, Dropout
 BatchNormalize나 Dropout을 시도해봤지만 Layer가 적어서 오히려 성능이 떨어졌다.
+BatchNormalize
+
+![image](https://github.com/user-attachments/assets/833d1ba4-6b4d-42ce-9271-1d795a05ce20)
+
+Dropout
+
+![image](https://github.com/user-attachments/assets/f5d7b716-c341-441c-ab32-a7dde9bc78a2)
 
 
-3. learning rate scheduler = CosineAnnealingWarmRestarts
+
+4. learning rate scheduler = CosineAnnealingWarmRestarts
 
 ![image](https://github.com/user-attachments/assets/ca6162e8-436c-4238-8fe2-9d6197b5323c)
 ![image](https://github.com/user-attachments/assets/6072e1d9-f25e-4ae5-a261-abff53630e00)
