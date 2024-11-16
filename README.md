@@ -142,7 +142,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 ### 2. 모델 비교  
 
-### RF 랜덤포레스트                                         ### XGB                               
+### RF 랜덤포레스트                                          XGB                               
                                 
 
 <img width="300px" src="image/ML_RF_report.png" />        <img width="300px" src="image/ML_XGB_report.png" />  
