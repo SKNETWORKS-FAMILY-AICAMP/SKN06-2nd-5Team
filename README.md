@@ -239,10 +239,26 @@ train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Li
 ![image](https://github.com/user-attachments/assets/818404e3-49f5-49b7-97f6-86be7a7bf4a1)
 
 2. BatchNormalize나 Dropout을 시도해봤지만 Layer가 적어서 오히려 성능이 떨어졌다.
+
+
 3. learning rate scheduler = CosineAnnealingWarmRestarts
+![image](https://github.com/user-attachments/assets/ca6162e8-436c-4238-8fe2-9d6197b5323c)
+![image](https://github.com/user-attachments/assets/6072e1d9-f25e-4ae5-a261-abff53630e00)
+train loss와 test loss의 차이가 크다.
+이것은 Overfitting이 된것임을 알 수 있고 이를 해소하기위해 L2 정규화를 시도하였다.
+
 4. learning rate scheduler = CosineAnnealingWarmRestarts + L2정규화
-5. learning rate scheduler = stepLR
-6. learning rate scheduler = stepLR + SMOTE
+![image](https://github.com/user-attachments/assets/2ce38808-dc6b-448e-afdc-b6ee3576a557)
+![image](https://github.com/user-attachments/assets/0f8fc690-97a1-4a2b-b10e-f45385a3187d)
+CosineAneelingWarmRestarts를 통해 학습률을 변화시키고 L2정규화를통해 가중치의 크기를 억제시켜 Overfitting을 줄일 수 있다.
+하지만 여전히 train loss와 test loss의 차이가 크다.
+
+
+6. learning rate scheduler = stepLR
+
+
+
+7. learning rate scheduler = stepLR + SMOTE
 
 
 ### 결과 요약:
