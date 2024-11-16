@@ -10,7 +10,7 @@
 
   ### 팀원 👥  
 
-| <img width="140px" src="image/cy.jpg" /> | <img width="140px" src="image/ks.jpg" /> | <img width="140px" src="image/mh.jpg" /> |  <img width="142px" src="image/hj.jpg" /> |
+| <img width="140px" src="image/team_cy.jpg" /> | <img width="140px" src="image/team_ks.jpg" /> | <img width="140px" src="image/team_mh.jpg" /> |  <img width="142px" src="image/team_hj.jpg" /> |
 |:----------:|:----------:|:----------:|:----------:|
 | 강채연 | 유경상 | 박미현 | 홍 준 |
 |[@codus090880](https://github.com/codus090880)|[@kyungsangYu](https://github.com/kyuyounglee)|[@ppim321](https://github.com/ppim321)|[@zl-zone](https://github.com/silenc3502)|
