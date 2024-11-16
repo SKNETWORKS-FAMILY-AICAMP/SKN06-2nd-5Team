@@ -123,8 +123,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
    - StratifiedKFold
    - Cross-Validation
-   - pipeline
-   - 결과
+   - pipeline  
 
 
 ### CrossValid  교차 검증 및 분석  
