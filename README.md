@@ -243,15 +243,15 @@ XGBoost 모델의 자체 기능 부스팅은 약한 학습기(weak learner)들�
 ### 결론:
   
 
-## 📚 Stacks  
+### 📚 Stacks  
 
-### Environment
+#### Environment
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
-### Development
+#### Development
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-### Communication
+#### Communication
 ![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)  
 
   
