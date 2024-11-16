@@ -112,7 +112,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 ##  모델
 
-### ML
+## ML
 **개요**: 이진 분류(0: 이탈하지 않은 고객, 1: 이탈한 고객) 문제이므로, 사용할 모델을 다음과 같이 구상하였다.
 
    1. **로지스틱 회귀(Logistic Regression)**
@@ -147,12 +147,12 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 
 ### 2. 모델 비교  
 
-#### RF 랜덤포레스트, XGB                               
+### RF 랜덤포레스트, XGB                               
                                 
 
 <img width="300px" src="image/ML_RF_report.png" />        <img width="300px" src="image/ML_XGB_report.png" />  
   
-#### 앙상블 기법 시도  
+### 앙상블 기법 시도  
 <img width="300px" src="image/ML_EMSBL_report.png" />    
 
 #### 요약
@@ -192,7 +192,7 @@ Random Forest 모델을 데이터에 맞추어서 최적화 작업을 진행하�
 
 XGBoost는 클래스 1에 있어서 가장 높은 재현율을 보여주었으므로 로지스틱 회귀와 XGBoost를 앙상블 기법으로 클래스 1의 정밀도와 재현율을 높일 수 있을지 확인 해보았다.
 
- ### 3. 모델 재선택 및 결정: Ensemble(Logistic + Gradient + XGB)
+### 3. 모델 재선택 및 결정: Ensemble(Logistic + Gradient + XGB)
     
 <img width="300px" src="image/ML_ESBL(LG_G_XGB)_report.png" />  
 
@@ -231,30 +231,29 @@ XGBoost 모델의 자체 기능 부스팅은 약한 학습기(weak learner)들�
 [프로젝트 개요](#프로젝트-개요) | [프로젝트 과정](#프로젝트-과정) | [데어터전처리](#데이터-전처리) | [모델](#모델) | [ML](#ml) | [DL](#dl)  
 
     
-#### DL
+## DL
 1. 
 2. 
 3. 
-
-
-## 📚 Stacks 
-
-### Environment
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)             
-
-### Development
-![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)   
-
-### Communication
-![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)  
 
 
 ### 결과 요약:
 
 
 ### 결론:
+  
 
+## 📚 Stacks  
 
+### Environment
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=Visual%20Studio%20Code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
+![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white)
+### Development
+![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### Communication
+![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)  
+
+  
+  
 ## 한 줄 회고
