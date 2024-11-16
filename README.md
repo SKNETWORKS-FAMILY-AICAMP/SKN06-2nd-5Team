@@ -50,7 +50,7 @@
 <br>dtypes: float64(1), int64(2), object(18)
 <br>RangeIndex: 7043 entries, 0 to 7042
 <br>Data columns : total 21 columns  
-<br>Target : Yes(1) : No(0) = 27 : 73
+Target : Yes(1) : No(0) = 27 : 73
 
 | # | Column | Non-Null | Count | Dtype |
 |:---:|:---:|:---:|:---:|:---:|
