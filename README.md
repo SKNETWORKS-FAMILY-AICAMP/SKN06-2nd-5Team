@@ -143,7 +143,7 @@ TotalCharges 컬럼의 데이터 분포를 확인 후 결측치를 중앙값으�
 <img width="300px" src="image/ML_SMOTE_report.png" /> <img width="300px" src="image/ML_SMOTE_ROC.png" />  
 
 
-## 모델 비교  
+### 2. 모델 비교  
 
 ### RF 랜덤포레스트  
 
