@@ -220,7 +220,7 @@ XGBoost는 클래스 1에 있어서 가장 높은 재현율을 보여주었으�
 <img width="300px" src="image/ML_ESBL(LG_G_XGB)_report.png" />  
 
 #### 요약
-결국 로지스틱 회귀와 XGB(XGBoost)를 앙상블 기법으로 결합함으로써 클래스 1의 정밀도와 재현율을 둘 다 높일 수 있었다.
+결국 로지스틱 회귀와 Gradient Boosting Classifier 그리고 XGB(XGBoost)를 앙상블 기법으로 결합함으로써 클래스 1의 정밀도와 재현율을 둘 다 높일 수 있었다.
 
 Logistic Regression은 모델의 단순성 덕분에 일반화 성능이 좋아서 높은 정확성를 유지한 것으로 보임.
 
