@@ -257,7 +257,7 @@ XGBoost 모델의 자체 기능 부스팅은 약한 학습기(weak learner)들�
 ## DL
 1. mode = binary, loss fn = BCEloss, optimizer = Adam 
 Target이 (0,1)인 데이터로 이진분류를 사용하였고 따라서 손실함수로는 BCEloss를 optimizer로는 Adam을 사용하였다.
-train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Liinear를 사용할떄가 가장 성능이 좋았다.
+train/test의 batchsize=128, epochs=1000, lr=0.01, 중간 Layer로는 3개의 Linear를 사용할떄가 가장 성능이 좋았다.
 
 ![image](https://github.com/user-attachments/assets/71cec8e7-89df-4585-a2f9-4b44598759db)
 ![image](https://github.com/user-attachments/assets/818404e3-49f5-49b7-97f6-86be7a7bf4a1)
