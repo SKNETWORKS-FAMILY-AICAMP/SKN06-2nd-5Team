@@ -290,7 +290,6 @@ train loss와 test loss의 차이가 크다.
 ![image](https://github.com/user-attachments/assets/2ce38808-dc6b-448e-afdc-b6ee3576a557)
 ![image](https://github.com/user-attachments/assets/0f8fc690-97a1-4a2b-b10e-f45385a3187d)
 
-CosineAneelingWarmRestarts를 통해 학습률을 변화시키고 L2정규화를통해 가중치의 크기를 억제시켜 Overfitting을 줄일 수 있다.
 하지만 여전히 train loss와 test loss의 차이가 크다.
 
 
